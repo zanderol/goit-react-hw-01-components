@@ -1,0 +1,21 @@
+.transaction__history {
+  width: 300px;
+  margin: 25px auto 0 auto;
+}
+
+.transaction__title {
+  background-color: lightcyan;
+  border: none;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+td {
+  text-align: center;
+  padding: 7px;
+  text-transform: capitalize;
+}
+
+tr:nth-child(even) {
+  background-color: azure;
+}
